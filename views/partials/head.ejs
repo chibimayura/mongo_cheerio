@@ -2,5 +2,82 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 <style type="text/css">
-	
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+/*Entire Page*/
+	html {
+		min-height: 100%;
+		position: relative;
+		margin: 0;
+	}
+	body {
+		margin: 0;
+		margin-bottom: 60px;
+	}
+	a:hover {
+		text-decoration: none;
+		color: #333;
+	}
+	a {
+		color: #000;
+	}
+/*NavBar*/
+	header {
+		position: relative;
+	}
+	.navbar {
+		height: 5em;
+		font-family: 'Times';
+	}
+	.card-title, .card-subtitle {
+		margin: 0;
+		padding: 0;
+	}
+	.card-subtitle {
+		margin-top: -0.5em;
+		margin-bottom: 0.5em;
+		font-size: 0.9em;
+		font-weight: bold;
+		color: #777!important;
+	}
+	.card-title {
+		margin-top: 0.35em;
+	}
+	h1.card-title {
+		letter-spacing: 0.1em;
+		font-family: 'Monoton', cursive;
+	}
+	.nav-item {
+		font-size: 20px;
+	}
+	li:hover {
+		background-color: #333;
+	}
+/*JumboTron*/
+	.jumbotron {
+		height: 20em;
+		background-image: url('/images/jumboTron.png');
+		background-repeat: no-repeat;
+		background-size: 100% 150%;
+	}
+/*Main Content*/
+	main {
+		position: relative;
+		margin: auto;
+		width: 90em;
+	}
+
+	.thumbnail {
+		width: 100%;
+		height: 100%;
+	}
+/*Footer*/
+	footer {
+		width: 100%;
+		height: 40px;
+		position: absolute;
+		text-align: center;
+		bottom: 0;
+		left: 0;
+	}
 </style>
